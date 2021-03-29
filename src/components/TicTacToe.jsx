@@ -74,6 +74,7 @@ const TicTacToe = () => {
       
       return (
         <div>
+            <h1>Arts Tic Tac Toe</h1>
             <div className="grid" >
             <Square position={0} value={state.positions[0]} takeTurn={takeTurn} />
             <Square position={1} value={state.positions[1]} takeTurn={takeTurn} />
